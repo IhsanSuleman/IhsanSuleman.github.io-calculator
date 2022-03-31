@@ -103,6 +103,6 @@ const inputPercent = () => {
 }
 
 percent.addEventListener('click', (event) => {
-    inputPercent(event.target.value)
-    updateScreen(currNumber)
-})
+    inputPercent(event.target.value);
+    updateScreen(currNumber);
+});
